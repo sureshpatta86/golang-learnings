@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"./i"
+	"./oi"
 )
 
 func main() {
-	fmt.Println(i.I)
+	fmt.Println(oi.I)
 	fmt.Println("Hello World")
 }
 
