@@ -2,9 +2,9 @@ package eu
 
 import "fmt"
 
-var exportedVariable = 30
-var unexportedVariable = 40
+var i = 30
+var I = 40
 
 func f() {
-	fmt.Println(exportedVariable, unexportedVariable)
+	fmt.Println(i, I)
 }

@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 
-	eu "github.com/suresh-patta/GoLangMaterial/11-Scope/eu"
+	"./eu"
 )
 
 func main() {
 	//Exported variable
-	fmt.Println(eu.ExportedVariable)
-	fmt.Println(eu.unexportedVariable)
+	fmt.Println(eu.I)
+	//UnExported Variable
+	//fmt.Println(eu.i)
 
 	//Block scope
 	{
