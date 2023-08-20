@@ -12,7 +12,7 @@ func main() {
 	c := 123
 	println(c)
 
-	d := "patta"
+	d := "p"
 	println(d)
 
 	var e bool //default value=false
