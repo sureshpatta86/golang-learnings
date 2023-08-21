@@ -27,4 +27,7 @@ func main() {
 		fmt.Println(value)
 	}
 
+	arr4[1]="abcd"
+	fmt.Println(arr4[1])
+
 }
